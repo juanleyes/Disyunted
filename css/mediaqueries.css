@@ -20,8 +20,8 @@
   }
 
   .menu_label img {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
   }
 
   #menu_toggle:checked + .navbar_list {
