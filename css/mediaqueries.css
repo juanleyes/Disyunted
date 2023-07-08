@@ -1,0 +1,62 @@
+@media (max-width: 992px) {
+  .navbar_list {
+    position: absolute;
+    top: 65px;
+    width: 90%;
+    left: 5%;
+    right: 5%;
+    border: 2px solid black;
+    background-color: #ffffff;
+    border-radius: 15px;
+    flex-direction: column;
+    padding: 45px 30px;
+    align-items: flex-start;
+    display: none;
+  }
+
+  .menu_label {
+    display: flex;
+    cursor: pointer;
+  }
+
+  .menu_label img {
+    width: 30px;
+    height: 30px;
+  }
+
+  #menu_toggle:checked + .navbar_list {
+    display: flex;
+  }
+
+  .hero_info {
+    align-items: center;
+    width: 90%;
+  }
+
+  .hero_info h1 {
+    text-align: center;
+  }
+
+  .hero_info p {
+    text-align: center;
+  }
+
+  #hero img {
+    display: none;
+  }
+
+  #about {
+    width: 90%;
+  }
+
+  .cards-container {
+    max-width: 90%;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 576px) {
+  header {
+    justify-content: space-between;
+  }
+}

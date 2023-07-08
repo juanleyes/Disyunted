@@ -22,6 +22,11 @@ header {
   width: 100%;
 }
 
+#menu_toggle,
+.menu_label {
+  display: none;
+}
+
 .navbar_list {
   display: flex;
   align-items: center;
