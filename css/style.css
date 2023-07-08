@@ -44,6 +44,7 @@ header {
 .logo {
   width: 40px;
 }
+
 /* /// HERO /// */
 main {
   background: #e0e0e0;
@@ -104,7 +105,6 @@ main {
 }
 
 /* /// ABOUT /// */
-
 #about {
   max-width: 1200px;
   margin: 25px 0;
@@ -120,7 +120,6 @@ main {
 }
 
 /* /// ADVANTAGES /// */
-
 #advantages {
   max-width: 1200px;
   margin: 25px 0;
@@ -166,4 +165,62 @@ main {
   text-align: center;
   font-size: 14px;
   color: #292929;
+}
+
+/* /// FOOTER /// */
+footer {
+  background: #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+#contact-us {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+#contact-us h2 {
+  font-weight: 800;
+}
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contacto span {
+  font-weight: 800;
+}
+
+.contacto p {
+  color: #292929;
+}
+
+.contacto img {
+  width: 20px;
+}
+
+.footer {
+  background: linear-gradient(#e0e0e0, white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.footer img {
+  width: 40px;
+}
+
+.footer p {
+  font-size: 14px;
+  margin-bottom: 20px;
 }
